@@ -7,11 +7,12 @@ import {
   TouchableOpacity,
   ImageBackground,
 } from 'react-native';
-import * as React from 'react';
+import React from 'react';
 
 export default function Login({ navigation }) {
   return (
     <View>
+      {/* this is comment */}
       <ImageBackground
         source={require('../images/bg2.png')}
         style={{ height: '100%', width: '100%' }}
